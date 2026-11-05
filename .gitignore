@@ -43,3 +43,38 @@ next-env.d.ts
 # firebase
 firebase-debug.log
 firestore-debug.log
+# Dependencies and builds
+node_modules/
+.next/
+dist/
+build/
+target/
+.cache/
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Secrets & Configs
+.env
+.env.*
+*.pem
+*.key
+
+# Large binaries & model weights (>50MB)
+*.pth
+*.pt
+*.bin
+*.pkl
+*.onnx
+*.h5
+*.tflite
+*.weights
+*.zip
+*.tar
+*.tar.gz
+*.iso
+*.exe
+*.dll
+*.so
